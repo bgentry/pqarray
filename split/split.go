@@ -73,8 +73,8 @@ func Array(s []byte) ([][]byte, error) {
 			// this byte will not cause end
 			case ignore:
 				ignore = false
-			// mark end of array
-			case closer == '}' && (b == '}' || b == '}'):
+			case closer == '}' && b == '}':
+				// mark end of array
 				switch {
 				case b == '{':
 					dep++

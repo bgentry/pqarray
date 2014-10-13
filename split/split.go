@@ -1,7 +1,6 @@
-package split
-
 // Package split contains PostgreSQL array parsing logic from Chris Farmiloe
 // at https://bitbucket.org/pkg/pql.
+package split
 
 import (
 	"bytes"

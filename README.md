@@ -1,5 +1,7 @@
 # pqarray
 
+[![GoDoc](https://godoc.org/github.com/bgentry/pqarray?status.svg)](https://godoc.org/github.com/bgentry/pqarray)
+
 A simple Go package for parsing PostgreSQL arrays using the `sql.Scanner`
 interface.
 

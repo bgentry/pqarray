@@ -1,5 +1,8 @@
 // Package pqarray provides helper types for parsing PostgreSQL arrays. It is
 // compatible with pq (github.com/lib/pq).
+//
+// The split subpackage exports a function to use the array parser with an
+// arbitrary array type.
 package pqarray
 
 import (
